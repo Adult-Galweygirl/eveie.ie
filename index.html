@@ -16,38 +16,43 @@ body {
 
 .wrapper {
   max-width: 500px;
-  margin: 40px auto;
-  padding: 40px 20px;
+  margin: 20px auto; /* Kisebb margó felül/alul */
+  padding: 20px;     /* Kisebb belső térköz */
 }
 
-/* Logó formázása */
+/* Logó formázása fehér háttérrel */
 .logo {
   display: block;
-  max-width: 100px; /* A te 100x100-as logódhoz igazítva, hogy éles maradjon */
-  margin: 0 auto 25px auto;
+  width: 90px;
+  height: auto;
+  margin: 0 auto 15px auto;
+  background: #ffffff;      /* Fehér háttér */
+  border-radius: 50%;       /* Kerek forma */
+  padding: 8px;             /* Egy kis hely a logó körül */
+  box-sizing: border-box;
 }
 
 h1 {
-  font-size: 30px;
-  margin-bottom: 12px;
+  font-size: 24px;          /* Kisebb betűméret */
+  margin-bottom: 10px;
   text-align: center;
   color: #ffffff;
 }
 
 .intro {
   color: #b3b3b3;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 15px;
+  line-height: 1.4;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 20px;      /* Kisebb térköz */
 }
 
 .benefits {
   background: #161616;
   border: 1px solid #2a2a2a;
   border-radius: 8px;
-  padding: 15px 20px;
-  margin-bottom: 25px;
+  padding: 12px 15px;       /* Kisebb belső térköz */
+  margin-bottom: 20px;      /* Kisebb térköz */
 }
 
 .benefits ul {
@@ -57,8 +62,8 @@ h1 {
 }
 
 .benefits li {
-  margin: 8px 0;
-  font-size: 15px;
+  margin: 6px 0;
+  font-size: 14px;          /* Kisebb betűméret */
 }
 
 .action-btn {
@@ -66,11 +71,11 @@ h1 {
   width: 100%;
   box-sizing: border-box;
   text-align: center;
-  padding: 18px;
+  padding: 16px;            /* Kicsit vékonyabb gomb */
   background: #ff2d55;
   color: #ffffff;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 18px;
   border-radius: 8px;
   font-weight: bold;
 }
